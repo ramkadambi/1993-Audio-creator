@@ -1,0 +1,6 @@
+{
+  "name": "Madras '93: Chennai Tamil Audio Drama Studio",
+  "description": "Colloquial 1993 Chennai college Tamil voice studio and dialogue generator for Arun, Priya, Meena, Suresh, and Ravi with authentic Madras slang, emotional delivery, cassette player, and audio synthesis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

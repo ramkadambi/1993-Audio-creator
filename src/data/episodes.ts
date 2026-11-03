@@ -1,0 +1,176 @@
+import { Episode } from '../types';
+
+export const EPISODES: Episode[] = [
+  {
+    id: 'ep-1-sunday-plan',
+    title: 'The Sunday Outing Conspiracy',
+    titleTamil: 'சண்டே ப்ளான் பஞ்சாயத்து',
+    eraContext: 'Madras, August 1993 • College Canteen Banyan Tree • Pallavan Transport 29C',
+    synopsis:
+      'Arun abruptly announces a grand Sunday trip for the five friends. Priya immediately dismantles the budget, Meena panics over upcoming physics lab records, Suresh wants to catch the morning show, and Ravi drops his signature unhurried decision.',
+    cassetteSide: 'A',
+    lines: [
+      {
+        id: 'ep1-l1',
+        speaker: 'Arun',
+        tamilText: 'டேய், நாளைக்கு சண்டேடா… அஞ்சு பேரும் எங்கயாவது போலாம்டா!',
+        transliteration: 'Dei, naalaikku Sunday-da… anju perum engayaavadhu polaamda!',
+        englishMeaning: 'Hey guys, tomorrow is Sunday man… all five of us should go somewhere!',
+        emotion: 'Friendly, mischievous, spontaneous & excited',
+        voiceDirection:
+          'Young male, approximately 20 years old. Educated middle-class Chennai college student in 1993. Natural Madras Tamil, casual conversation with friends. Friendly, spontaneous and slightly excited. Speak quickly but clearly. Avoid formal Tamil, exaggerated slang, Sri Lankan Tamil pronunciation and newsreader-style delivery.',
+        vocalBursts: '<breath>',
+      },
+      {
+        id: 'ep1-l2',
+        speaker: 'Priya',
+        tamilText: 'எங்க போவீங்க? Woodlands Drive-in-க்கு போயி ஒரு கப் காப்பியை அஞ்சு பேர் ஷேர் பண்ணவா?',
+        transliteration: 'Enga poveenga? Woodlands Drive-in-kku poyi oru cup coffee-ya anju per share pannavaa?',
+        englishMeaning: 'Where will you go? Go to Woodlands Drive-in and share one cup of coffee between five people?',
+        emotion: 'Sarcastic & playful eye-roll',
+        voiceDirection:
+          'Young female, 20yo, Madras college student in 1993. Quick-witted, sarcastic, sharp, playful teasing, deadpan delivery, effortless Chennai Tamil cadence.',
+        vocalBursts: '<laugh>',
+      },
+      {
+        id: 'ep1-l3',
+        speaker: 'Suresh',
+        tamilText: 'யோவ்! Woodlands எல்லாம் வேணாம்… Mount Road Devi theatre-ல புது படம் ரிலீஸ், அங்க போலாம்!',
+        transliteration: 'Yov! Woodlands ellaam venaam… Mount Road Devi theatre-la pudhu padam release, anga polaam!',
+        englishMeaning: 'Man! Forget Woodlands… there’s a new movie release at Mount Road Devi theatre, let’s go there!',
+        emotion: 'Impatient & theatrical movie buff',
+        voiceDirection:
+          'Young male, 20yo, Madras college student in 1993. Theatrical, loud, cinema-obsessed, impatient and animated.',
+      },
+      {
+        id: 'ep1-l4',
+        speaker: 'Meena',
+        tamilText: 'டேய் அருண், கொஞ்சம் சும்மா இருடா! திங்கட்கிழமை காலையில Physics practical exam இருக்கு… Record note யார் எழுதுவா?',
+        transliteration: 'Dei Arun, konjam summa iruda! Thingatkizhamai kaalaila Physics practical exam irukku… Record note yaar ezhudhuvaa?',
+        englishMeaning: 'Arun, hold on for a second! Monday morning we have the Physics practical exam… who will write the record notes?',
+        emotion: 'Sensible caution & genuine concern',
+        voiceDirection:
+          'Young female, 20yo, Madras college student in 1993. Earnest, practical, cautious, organized, measured, warm and sensible friend.',
+        vocalBursts: '<sigh>',
+      },
+      {
+        id: 'ep1-l5',
+        speaker: 'Arun',
+        tamilText: 'அடிப்பாவி மீனா, சண்டேவை பாழாக்காதடி! ரவி, நீயாவது சொல்லுடா… வருவியா மாட்டியா?',
+        transliteration: 'Adippaavi Meena, Sunday-va paazhaakkaadhadi! Ravi, neeyaavadhu solluda… varuviyaa maattiyaa?',
+        englishMeaning: 'O woman of sin Meena, don’t ruin Sunday! Ravi, at least you say man… are you coming or not?',
+        emotion: 'Mischievous pleading & dramatic tease',
+        voiceDirection:
+          'Young male, 20yo. Playful teasing, pushing Ravi for an answer, animated and spontaneous.',
+      },
+      {
+        id: 'ep1-l6',
+        speaker: 'Ravi',
+        tamilText: 'நான் வர்றேன். எட்டு மணிக்கு.',
+        transliteration: 'Naan varren. Ettu manikku.',
+        englishMeaning: 'I’m coming. At eight o’clock.',
+        emotion: 'Relaxed, matter-of-fact & understated',
+        voiceDirection:
+          'Young male, approximately 20 years old. Chennai college student in 1993. Natural colloquial Madras Tamil. Relaxed, matter-of-fact, slightly mischievous. He is not particularly excited; he says it casually, as though eight o’clock is the most obvious thing in the world.',
+      },
+      {
+        id: 'ep1-l7',
+        speaker: 'Priya',
+        tamilText: 'பார்த்தியா! இவனுக்கு எப்போவுமே எட்டு மணி தான்… பஸ் ஸ்டாண்ட்ல அரை மணி நேரம் வெயிட் பண்ண வச்சிட்டு மெதுவா வருவான்!',
+        transliteration: 'Paarthiyaa! Ivanukku eppovume ettu mani thaan… bus stand-la arai mani neram wait panna vachittu medhuvaa varuvaan!',
+        englishMeaning: 'See that! For him it’s always eight o’clock… he’ll make us wait at the bus stand for half an hour and stroll in slowly!',
+        emotion: 'Fond exasperation & laughing jab',
+        voiceDirection:
+          'Young female, 20yo. Playfully scolding, affectionate exasperation at Ravi’s notorious unhurried habit.',
+        vocalBursts: '<laugh>',
+      },
+    ],
+  },
+  {
+    id: 'ep-2-devi-theatre',
+    title: 'The Devi Theatre Ticket Hunt',
+    titleTamil: 'தேவி தியேட்டர் டிக்கெட் வேட்டை',
+    eraContext: 'Madras, October 1993 • Mount Road • Cassette release mania',
+    synopsis:
+      'Suresh drags Arun to stand in line at Mount Road for weekend cinema tickets. Ravi shows up with insider tea shop tips, Meena brings geometry-ruled tokens, and Priya questions their life priorities.',
+    cassetteSide: 'A',
+    lines: [
+      {
+        id: 'ep2-l1',
+        speaker: 'Suresh',
+        tamilText: 'மச்சி! இன்னைக்கு டிக்கெட் கிடைக்கலன்னா நான் செத்தே போயிருவேன்டா! AR Rahman பாட்டு தியேட்டர் சவுண்ட்ல கேக்கணும்!',
+        transliteration: 'Machi! Innaikku ticket kidaikkalanna naan sethe poyiruvenda! AR Rahman paattu theatre sound-la kekkanum!',
+        englishMeaning: 'Buddy! If we don’t get tickets today I swear I will die man! We have to hear AR Rahman’s songs on theatre sound!',
+        emotion: 'High theatrical panic',
+        voiceDirection: 'Young male, 20yo. Theatrical, hyper-dramatic, passionate movie fan in 1993 Madras.',
+      },
+      {
+        id: 'ep2-l2',
+        speaker: 'Ravi',
+        tamilText: 'கத்தாதடா சுரேஷ்… கவுண்டர் இன்னும் திறக்கவே இல்ல. பக்கத்து டீக்கடைல ஒரு கட்டிங் சொல்லிட்டு வந்து நில்லு.',
+        transliteration: 'Kathathaada Suresh… counter innum thirakkave illa. Pakkathu tea-kadaila oru cutting sollittu vandhu nillu.',
+        englishMeaning: 'Stop shouting Suresh… the counter hasn’t even opened yet. Order a cutting chai at the nearby tea stall and chill.',
+        emotion: 'Calm, street-smart & unhurried',
+        voiceDirection: 'Young male, 20yo. Cool, composed, knows how the city works, relaxed drawl.',
+      },
+      {
+        id: 'ep2-l3',
+        speaker: 'Priya',
+        tamilText: 'டீ குடிச்சிட்டே டிக்கெட் போயிரும் பாரு! சுரேஷோட பில்டப்புக்கு அளவே இல்லாம போச்சு!',
+        transliteration: 'Tea kudichitte ticket poyirum paaru! Suresh-oda builduppu-kku alave illaama pochu!',
+        englishMeaning: 'While drinking tea watch the tickets vanish! Suresh’s exaggerations have completely crossed all limits!',
+        emotion: 'Sarcastic smirk',
+        voiceDirection: 'Young female, 20yo. Teasing, quick wit, mocking Suresh affectionately.',
+        vocalBursts: '<laugh>',
+      },
+      {
+        id: 'ep2-l4',
+        speaker: 'Arun',
+        tamilText: 'சரி சரி, அஞ்சு டிக்கெட் balcony-ல எடுத்தாச்சுன்னா அப்புறம் Marina beach-ல சுண்டல் சாப்பிடலாம்டா!',
+        transliteration: 'Sari sari, anju ticket balcony-la eduthaachunna appuram Marina beach-la sundal saappidalaamda!',
+        englishMeaning: 'Alright alright, once we grab five balcony tickets, we can hit Marina beach for sundal man!',
+        emotion: 'Cheerful optimism',
+        voiceDirection: 'Young male, 20yo. Enthusiastic, always bridging the gap with another food plan.',
+      },
+    ],
+  },
+  {
+    id: 'ep-3-record-notebook',
+    title: 'The Midnight Physics Record Crisis',
+    titleTamil: 'இரண்டு மணி ரெக்கார்ட் நோட் அலப்பறை',
+    eraContext: 'Madras, November 1993 • Hostel Study Room • Table Lamp & Camlin Geometry Box',
+    synopsis:
+      'It’s 1:30 AM before the dreaded Physics practical exam. Arun’s diagrams look like fried dosas, Meena is diligently sharing her inked charts, Suresh is praying to all deities, and Ravi is calmly sleeping with his record already signed.',
+    cassetteSide: 'B',
+    lines: [
+      {
+        id: 'ep3-l1',
+        speaker: 'Meena',
+        tamilText: 'அருண்! இந்த Circuit diagram-ஐ எலி கடிச்ச மாதிரி வரைஞ்சு வச்சிருக்க… External examiner பார்த்தா பூஜ்ஜியம் தான் போடுவாரு!',
+        transliteration: 'Arun! Indha Circuit diagram-ai eli kadicha maadhiri varainju vachirukka… External examiner paarthaa poojjiyam thaan poduvaaru!',
+        englishMeaning: 'Arun! You drew this circuit diagram like a rat chewed on it… if the external examiner sees this, he’ll give you a big zero!',
+        emotion: 'Exasperated perfectionist',
+        voiceDirection: 'Young female, 20yo. Strict but loving friend, holding up a crooked notebook, lecturing Arun.',
+      },
+      {
+        id: 'ep3-l2',
+        speaker: 'Arun',
+        tamilText: 'அய்யோ மீனா, கொஞ்சம் அட்ஜஸ்ட் பண்ணிக்கடி! ஸ்கேல் வச்சி கோடு போட்டா கரண்ட் பாஸ் ஆகாதா என்ன?',
+        transliteration: 'Ayyo Meena, konjam adjust pannikkadi! Scale vachi kodu pottaa current pass aagaadhaa enna?',
+        englishMeaning: 'Oh come on Meena, cut me some slack! Does current refuse to flow just because I used a ruler for the wires?',
+        emotion: 'Mischievous cheekiness',
+        voiceDirection: 'Young male, 20yo. Playful grin, innocent-sounding cheekiness.',
+        vocalBursts: '<laugh>',
+      },
+      {
+        id: 'ep3-l3',
+        speaker: 'Ravi',
+        tamilText: 'எல்லாம் சரிதான்… ஆனா HOD சார் ரூம்ல இங்க் பாட்டில் தீந்துபோச்சுன்னு யாரும் அலறாதீங்க, என் பேக்ல ஒண்ணு இருக்கு.',
+        transliteration: 'Ellaam sarithaan… aanaa HOD sir room-la ink bottle theendhupochunnu yaarum alaraadheenga, en bag-la onnu irukku.',
+        englishMeaning: 'Everything is fine… but nobody panic if ink runs out in HOD sir’s room, I have a spare bottle in my bag.',
+        emotion: 'Steady reassurance',
+        voiceDirection: 'Young male, 20yo. Unflappable, always quietly prepared without boasting.',
+      },
+    ],
+  },
+];
